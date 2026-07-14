@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evento Prueba de OpenCode</title>
+    <title>Speakers - Evento Prueba de OpenCode</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
@@ -12,9 +12,9 @@
         <div class="nav-container">
             <a href="index.html" class="nav-logo">OpenCode Event</a>
             <ul class="nav-links">
-                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="agenda.html">Agenda</a></li>
-                <li><a href="speakers.html">Speakers</a></li>
+                <li><a href="speakers.html" class="active">Speakers</a></li>
                 <li><a href="registro.html" class="btn-nav">Registrarse</a></li>
             </ul>
             <button class="menu-toggle" aria-label="Menú">
@@ -25,59 +25,51 @@
         </div>
     </nav>
 
-    <header class="hero">
-        <div class="hero-content">
-            <span class="hero-badge">15-16 Noviembre 2026</span>
-            <h1>Evento Prueba de OpenCode</h1>
-            <p class="hero-subtitle">Un encuentro para desarrolladores, diseñadores y entusiastas de la tecnología</p>
-            <div class="hero-cta">
-                <a href="registro.html" class="btn btn-primary">Reserva tu lugar</a>
-                <a href="#info" class="btn btn-secondary">Más información</a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat">
-                    <span class="stat-number">500+</span>
-                    <span class="stat-label">Asistentes</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">30+</span>
-                    <span class="stat-label">Speakers</span>
-                </div>
-                <div class="stat">
-                    <span class="stat-number">2</span>
-                    <span class="stat-label">Días</span>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <section id="info" class="info-section">
+    <main class="page-header">
         <div class="container">
-            <h2 class="section-title">Sobre el Evento</h2>
-            <div class="info-grid">
-                <div class="info-card">
-                    <div class="info-icon">📅</div>
-                    <h3>Fecha y Hora</h3>
-                    <p>15-16 de Noviembre, 2026</p>
-                    <p>9:00 AM - 6:00 PM</p>
+            <h1>Speakers</h1>
+            <p>Conoce a los expertos que compartirán su conocimiento</p>
+        </div>
+    </main>
+
+    <section class="speakers-section">
+        <div class="container">
+            <div class="speakers-grid">
+                <div class="speaker-card">
+                    <div class="speaker-avatar">MG</div>
+                    <h3>María García</h3>
+                    <p class="speaker-role">CEO de TechVision</p>
+                    <p class="speaker-topic">El Futuro del Código</p>
                 </div>
-                <div class="info-card">
-                    <div class="info-icon">📍</div>
-                    <h3>Ubicación</h3>
-                    <p>Centro de Convenciones</p>
-                    <p>Ciudad de México, México</p>
+                <div class="speaker-card">
+                    <div class="speaker-avatar">CR</div>
+                    <h3>Carlos Rodríguez</h3>
+                    <p class="speaker-role">Senior Developer @ Google</p>
+                    <p class="speaker-topic">React Avanzado</p>
                 </div>
-                <div class="info-card">
-                    <div class="info-icon">🎤</div>
-                    <h3>Charlas</h3>
-                    <p>Más de 30 charlas</p>
-                    <p>Workshops interactivos</p>
+                <div class="speaker-card">
+                    <div class="speaker-avatar">AL</div>
+                    <h3>Ana López</h3>
+                    <p class="speaker-role">AI Research Lead</p>
+                    <p class="speaker-topic">IA en Desarrollo</p>
                 </div>
-                <div class="info-card">
-                    <div class="info-icon">🤝</div>
-                    <h3>Networking</h3>
-                    <p>Conecta con profesionales</p>
-                    <p>Coffee breaks incluidos</p>
+                <div class="speaker-card">
+                    <div class="speaker-avatar">PM</div>
+                    <h3>Pedro Martínez</h3>
+                    <p class="speaker-role">DevOps Engineer @ AWS</p>
+                    <p class="speaker-topic">DevOps 2026</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-avatar">LS</div>
+                    <h3>Laura Sánchez</h3>
+                    <p class="speaker-role">TS Core Team</p>
+                    <p class="speaker-topic">TypeScript Profesional</p>
+                </div>
+                <div class="speaker-card">
+                    <div class="speaker-avatar">DH</div>
+                    <h3>David Hernández</h3>
+                    <p class="speaker-role">CTO @ StartupXYZ</p>
+                    <p class="speaker-topic">Scaling Apps</p>
                 </div>
             </div>
         </div>
@@ -85,8 +77,8 @@
 
     <section class="cta-section">
         <div class="container">
-            <h2>¿Listo para asistir?</h2>
-            <p>Asegura tu lugar antes de que se agoten</p>
+            <h2>¿Quieres conocerlos en persona?</h2>
+            <p>Reserva tu lugar y no te los pierdas</p>
             <a href="registro.html" class="btn btn-primary">Regístrate ahora</a>
         </div>
     </section>

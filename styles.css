@@ -83,6 +83,48 @@ body {
     color: var(--text-dark) !important;
 }
 
+.nav-links a.active {
+    color: var(--pastel-lavender);
+}
+
+/* Page Header */
+.page-header {
+    padding: 150px 0 60px;
+    background: linear-gradient(135deg, var(--pastel-pink) 0%, var(--pastel-lavender) 50%, var(--pastel-blue) 100%);
+    text-align: center;
+}
+
+.page-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 15px;
+}
+
+.page-header p {
+    font-size: 1.2rem;
+    color: var(--text-light);
+}
+
+/* CTA Section */
+.cta-section {
+    padding: 80px 0;
+    text-align: center;
+    background: var(--pastel-lavender);
+}
+
+.cta-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: var(--text-dark);
+}
+
+.cta-section p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 30px;
+}
+
 .menu-toggle {
     display: none;
     flex-direction: column;
